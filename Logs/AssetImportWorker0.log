@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50551
+51372
 Successfully changed project path to: /Users/arcticjackie/Unity/Cartoon Shader Tutorial
 /Users/arcticjackie/Unity/Cartoon Shader Tutorial
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/arcticjackie/Unity/Cartoon Shader T
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 151.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 293.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,90 +69,90 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56754
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56179
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001056 seconds.
+Registered in 0.003181 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 131.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 196.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.471 seconds
+- Completed reload, in  2.308 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1472ms)
-		BeginReloadAssembly (328ms)
+	ReloadAssembly (2309ms)
+		BeginReloadAssembly (391ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (937ms)
-			LoadAssemblies (327ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1591ms)
+			LoadAssemblies (391ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (585ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (539ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (741ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (131ms)
+				RefreshPlugins (197ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003027 seconds.
+Registered in 0.006282 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/arcticjackie/Unity/Cartoon Shader Tutorial/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/arcticjackie/Unity/Cartoon Shader Tutorial/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.129 seconds
+- Completed reload, in  2.547 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2131ms)
-		BeginReloadAssembly (198ms)
+	ReloadAssembly (2548ms)
+		BeginReloadAssembly (232ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1703ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (2027ms)
+			LoadAssemblies (198ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (662ms)
+			SetupTypeCache (728ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (144ms)
-			SetupLoadedEditorAssemblies (647ms)
+			RebuildScriptCaches (137ms)
+			SetupLoadedEditorAssemblies (838ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (460ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (599ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (154.0 KB). Loaded Objects now: 3837.
-Memory consumption went from 229.0 MB to 228.9 MB.
-Total: 4.769146 ms (FindLiveObjects: 0.325447 ms CreateObjectMapping: 0.188529 ms MarkObjects: 4.084891 ms  DeleteObjects: 0.167221 ms)
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (97.3 KB). Loaded Objects now: 3838.
+Memory consumption went from 229.5 MB to 229.4 MB.
+Total: 7.562558 ms (FindLiveObjects: 0.460113 ms CreateObjectMapping: 0.332881 ms MarkObjects: 6.529056 ms  DeleteObjects: 0.238387 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,73 +166,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 109164.910067 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(52fb8f8e56a7546608ecb1c17468abaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(52fb8f8e56a7546608ecb1c17468abaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902b5ec12bd3126602364732a5e16df7') in 0.009694 seconds 
+  Time since last request: 117269.801544 seconds.
+  path: Assets/3DSphere.prefab
+  artifactKey: Guid(9977b00263d7b4d44b60d3e8d90a9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DSphere.prefab using Guid(9977b00263d7b4d44b60d3e8d90a9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa7b1818228fa240f12812bea3ffd3c') in 0.247007 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.232578 seconds.
-  path: Assets/Materials/NewShaderVariants.shadervariants
-  artifactKey: Guid(a43d77e5bfc2d4b5480484b73e5b292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/NewShaderVariants.shadervariants using Guid(a43d77e5bfc2d4b5480484b73e5b292f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5448ce4cbf19f6c5f552f43eb0d9a6') in 1.729096 seconds 
+  Time since last request: 3.880449 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.001352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.489676 seconds.
-  path: Assets/Materials/CartoonMat.mat
-  artifactKey: Guid(af87f6c015ec143379ecec40ef2efc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/CartoonMat.mat using Guid(af87f6c015ec143379ecec40ef2efc47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6902901feab2c44ae6238c3742cb1bb') in 0.829097 seconds 
+  Time since last request: 40.457890 seconds.
+  path: Assets/Materials/Sphere.prefab
+  artifactKey: Guid(6dbee9ece2caf4783a27eede29539de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sphere.prefab using Guid(6dbee9ece2caf4783a27eede29539de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19d66e7ccecdd884a75a0b1bcd6f758') in 0.005820 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.982446 seconds.
-  path: Assets/Materials/CartoonShader.shader
-  artifactKey: Guid(a99223f8306094edda608177699dc1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/CartoonShader.shader using Guid(a99223f8306094edda608177699dc1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e08250ddbd336c5ce475436bb90564d') in 0.163113 seconds 
+  Time since last request: 12.654157 seconds.
+  path: Assets/Materials/Sphere.prefab
+  artifactKey: Guid(6dbee9ece2caf4783a27eede29539de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sphere.prefab using Guid(6dbee9ece2caf4783a27eede29539de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4fdb80fc6579c665914a402bb9462c') in 0.229715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.710733 seconds.
-  path: Assets/Materials/CartoonShader.shader
-  artifactKey: Guid(a99223f8306094edda608177699dc1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/CartoonShader.shader using Guid(a99223f8306094edda608177699dc1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2972d285ccbbf7c9653cbb1df3836d9a') in 0.068937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 118.767404 seconds.
-  path: Assets/Materials/SphereMaterial.mat
-  artifactKey: Guid(8c5b23f3ccaf04fbfbe37afa24b2aa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereMaterial.mat using Guid(8c5b23f3ccaf04fbfbe37afa24b2aa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4110fbd6fe8c64dc5fa7b5ad486d11e9') in 0.218500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.799893 seconds.
-  path: Assets/Materials/SphereCartoonShader.shader
-  artifactKey: Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereCartoonShader.shader using Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bcacaa545c2e02d27d53b103a042ee') in 0.004319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1042.892368 seconds.
-  path: Assets/Materials/SphereCartoonShader.shader
-  artifactKey: Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereCartoonShader.shader using Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b3184c7f9903f0d0414d1c7bf61a83') in 0.021963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 181.499096 seconds.
-  path: Assets/Materials/SphereCartoonShader.shader
-  artifactKey: Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereCartoonShader.shader using Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7b903783d5ec88ff76eea09f0e0bac') in 0.009655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 161.522228 seconds.
-  path: Assets/Materials/SphereCartoonShader.shader
-  artifactKey: Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereCartoonShader.shader using Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f576fd970489a8ea55c0965bdb0f20') in 0.012365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.406613 seconds.
-  path: Assets/Materials/SphereCartoonShader.shader
-  artifactKey: Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereCartoonShader.shader using Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3926416d14451015d63d9611fd01ee3') in 0.006116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2709.043397 seconds.
-  path: Assets/Materials/SphereCartoonShader.shader
-  artifactKey: Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/SphereCartoonShader.shader using Guid(dac17872679e545c180c29ce2c023d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621401827dbf72d855fb7a6c6837385e') in 0.049023 seconds 
+  Time since last request: 56.995578 seconds.
+  path: Assets/CartoonShaderSpherePrefab.prefab
+  artifactKey: Guid(6dbee9ece2caf4783a27eede29539de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CartoonShaderSpherePrefab.prefab using Guid(6dbee9ece2caf4783a27eede29539de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8de2ff19eb6270bbd7ae17f9150194c') in 0.011864 seconds 
